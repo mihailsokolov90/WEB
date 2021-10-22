@@ -18,11 +18,29 @@
             <a href="#" role="button" class="navbar-brand">
                 <img src="img/logo.png" class="navbar-brand-image" alt="navbar-brand" />
             </a>
-            <button role="button" class="btn navbar-toggler" aria-expanded="false" >
+            <button role="button" class="btn navbar-toggler" aria-expanded="false" data-bs-toggle="collapse"
+                    data-bs-target="#nav_main_menu_container" aria-controls="nav_main_menu_container"
+                    aria-label="Toggle Button">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse" id="nav_main_menu_container">
-
+            <div class="navbar-collapse collapse" id="nav_main_menu_container">
+                <ul>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu Item</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">Dropdown</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-item"></div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Menu Item</a>
+                    </li>
+                </ul>
             </div>
 
         </div>
