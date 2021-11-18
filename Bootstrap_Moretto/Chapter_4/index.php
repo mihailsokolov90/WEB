@@ -13,7 +13,7 @@
 <body class="h-100 d-flex flex-column">
 <!-- HEADER SECTION -------------------------------------------------------------------------------------- -->
 <header class="section_header">
-    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top sticky-top">
         <div class="container-fluid">
             <a href="#" role="button" class="navbar-brand">
                 <img src="img/logo.png" class="navbar-brand-image" alt="navbar-brand" />
@@ -33,9 +33,13 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">Dropdown</a>
-                        <div class="dropdown-menu">
-                            <div class="dropdown-item"></div>
-                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Subitem1</a></li>
+                            <li><a href="#" class="dropdown-item">Subitem2</a></li>
+                            <li><hr> </li>
+                            <li><a href="#" class="dropdown-item">Subitem3</a></li>
+                            <li><a href="#" class="dropdown-item">Subitem4</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Menu Item</a>
